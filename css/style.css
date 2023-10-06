@@ -2,6 +2,15 @@
     list-style: none;
     text-decoration: none;
 }
+h1{
+    color: #170C04;
+font-family: Poppins;
+font-size: 100px;
+font-style: normal;
+font-weight: 700;
+line-height: 120px; /* 120% */
+z-index: 999;
+}
 .header__nav{
     display: flex;
     justify-content: space-between;
@@ -13,4 +22,121 @@ img{
 }
 .main__card{
     background-color: pink;
+    width: 100%;
+    height: 100%;
+}
+.main__center{
+    margin-top: 57px;
+}
+.center-card{
+    max-width: 360px;
+}
+.main-button{
+    text-align: center;
+    margin-top: 58px;
+}
+section{
+    margin-top: 130px;
+}
+.section-inf{
+    margin-top: 35px;
+}
+.sec-inf-p1{
+    color: #E27B3A;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 3.2px;
+text-transform: uppercase;
+}
+.section-inf h3{
+    color: #170C04;
+    font-family: Poppins;
+    font-size: 38.25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45.15px; /* 140% */
+}
+.sec-inf-p2{
+    color: #170C04;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+opacity: 0.6;
+margin-top: 18px;
+}
+.sec-inf-buttons button{
+    border-radius: 24px;
+background: #E27B3A;
+padding: 12px 30px;
+border: none;
+color: white;
+margin-top: 40px;
+}
+.sec-inf-buttons button:hover{
+    color: #E27B3A;
+    border: #E27B3A 1px solid;
+    background-color: white;
+}
+.section2{
+    padding-top: 116px;
+    max-width: 1100px;
+    margin: auto;
+}
+.section2 h1{
+    color: #170C04;
+text-align: center;
+font-family: Poppins;
+font-size: 32.25px;
+font-weight: 500;
+}
+.section2__block{
+    width: 360px;
+    text-align: center;
+}
+.section2__block h6{
+    color: #170C04;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px; /* 140% */
+}
+.section2__block p{
+    color: #170C04;
+font-family: Roboto;
+font-size: 16px;
+opacity: 0.6;
+}
+.section2__blocks{
+    justify-content: center;
+    display: flex;
+    margin-top: 36px;
+    gap: 20px;
+}
+.section2__block a{
+    color: #E27B3A;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+}
+.section2 button{
+    border-radius: 24px;
+background: #E27B3A;
+border: none;
+padding: 12px 30px;
+color: white;
+}
+.section2__button{
+    text-align: center;
+    margin-top: 58px;
+}
+@media screen and (max-width:720px) {
+    .section2__blocks{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

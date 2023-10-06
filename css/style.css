@@ -1,0 +1,16 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+.main__card{
+    background-color: pink;
+}
